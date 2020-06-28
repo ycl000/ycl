@@ -9,7 +9,8 @@
     <br>
     </div>
       <!-- <div>我是可见参数query:{{$route.query.id }}</div> -->
-      <div>我是不可见参数params:{{$route.params.id }}</div>
+      <div>我是不可见参数params:{{$route.params.id }} 在git修改</div>
+      
   
 </div>
 
