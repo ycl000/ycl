@@ -11,12 +11,9 @@ import 'ant-design-vue/dist/antd.css'
 import store from './store'
 import VueLazyload from 'vue-lazyload'
 import vueJsonp from 'vue-jsonp'
-import BMap from 'vue-baidu-map'
+// import BMap from 'vue-baidu-map'
 Vue.use(vueJsonp)
-Vue.use(BMap, {
-  /* 申请的百度密钥，可以在百度地图官网申请 */
-  ak: 'CicHIiywD9b1E5IH8o2hnXnmZriEbi2h'
-})
+
  
 // Vue.use(VueLazyload)
 // 或者添加VueLazyload 选项
