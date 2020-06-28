@@ -10,14 +10,7 @@
     </div>
       <!-- <div>我是可见参数query:{{$route.query.id }}</div> -->
       <div>我是不可见参数params:{{$route.params.id }}</div>
-  <div class="hello">
-
-    <baidu-map class="bm-view" :center="{lng: mapArr.lng, lat: mapArr.lat}" :zoom="15" :scroll-wheel-zoom="true">
-    <bm-marker :position="{lng: mapArr.lng, lat: mapArr.lat}" :dragging="true" animation="BMAP_ANIMATION_BOUNCE">
-    </bm-marker>
-    </baidu-map>
-  </div>
-  <div class="allMap" id="allMap"></div>
+  
 </div>
 
 </template>
