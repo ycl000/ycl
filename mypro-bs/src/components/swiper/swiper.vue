@@ -1,6 +1,6 @@
 <template>
          <!-- 轮播图-->
-    <div style="height: auto;width: 100%;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div style="height: auto;width: 100%;" id="carousel-example-generic" class="carousel slide" data-ride="carousel" autoplay>
    
           <!-- Indicators  圆点 -->
           <ol class="carousel-indicators">

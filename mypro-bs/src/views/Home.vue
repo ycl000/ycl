@@ -50,7 +50,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
+    
  
     <swiper :imglist="imglist"></swiper>
     <div class="container-fluid">
